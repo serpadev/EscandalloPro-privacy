@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — EscandalloPro</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+      line-height: 1.7;
+      padding: 0 1rem 4rem;
+    }
+
+    header {
+      background: #1e1e1e;
+      border-bottom: 2px solid #FF6B35;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #FF6B35;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: #9e9e9e;
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 2.5rem auto 0;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      color: #FF6B35;
+      margin: 2.2rem 0 0.7rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid #2e2e2e;
+    }
+
+    p { margin-bottom: 0.9rem; }
+
+    ul {
+      margin: 0.4rem 0 0.9rem 1.4rem;
+    }
+
+    ul li { margin-bottom: 0.4rem; }
+
+    .badge {
+      display: inline-block;
+      background: #1e3a2f;
+      color: #4caf50;
+      border: 1px solid #4caf50;
+      border-radius: 4px;
+      padding: 0.15rem 0.6rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      background: #1e1e1e;
+      border-left: 3px solid #FF6B35;
+      padding: 0.9rem 1.2rem;
+      border-radius: 0 6px 6px 0;
+      margin: 1rem 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.8rem 0 1rem;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: #1e1e1e;
+      color: #FF6B35;
+      text-align: left;
+      padding: 0.6rem 0.8rem;
+      border-bottom: 2px solid #2e2e2e;
+    }
+
+    td {
+      padding: 0.55rem 0.8rem;
+      border-bottom: 1px solid #2a2a2a;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    a { color: #FF6B35; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: #555;
+      font-size: 0.82rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>EscandalloPro</h1>
+  <p>Política de Privacidad</p>
+</header>
+
+<main>
+
+  <span class="badge">✓ Sin recopilación de datos personales</span>
+
+  <p>
+    Esta política de privacidad describe cómo <strong>EscandalloPro</strong>
+    (en adelante, «la aplicación») gestiona la información en tu dispositivo.
+    La aplicación ha sido diseñada con un principio claro: <strong>todos tus
+    datos son tuyos y permanecen en tu dispositivo</strong>.
+  </p>
+
+  <!-- 1 -->
+  <h2>1. Responsable</h2>
+  <p>
+    Desarrollado por <strong>SerpaDev</strong>.<br />
+    Contacto: <a href="mailto:privacidad@serpadev.com">privacidad@serpadev.com</a>
+  </p>
+
+  <!-- 2 -->
+  <h2>2. Datos que recopila la aplicación</h2>
+
+  <div class="highlight">
+    EscandalloPro <strong>no recopila ningún dato personal</strong>. No existe
+    ningún servidor propio al que se envíe información sobre ti o sobre tu
+    actividad en la app.
+  </div>
+
+  <p>
+    Toda la información que introduces en la aplicación (recetas, ingredientes,
+    precios, márgenes) se almacena exclusivamente en tu dispositivo mediante
+    una base de datos local (SQLite) y en las preferencias del sistema
+    (SharedPreferences). Ni SerpaDev ni ningún tercero tienen acceso a estos datos.
+  </p>
+
+  <!-- 3 -->
+  <h2>3. Compras integradas (Google Play Billing)</h2>
+  <p>
+    La versión completa de la aplicación se desbloquea mediante un pago único
+    procesado por <strong>Google Play</strong>. SerpaDev no recibe ni almacena
+    ningún dato de pago (número de tarjeta, cuenta bancaria, etc.). La
+    transacción es gestionada íntegramente por Google LLC. Consulta la
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+    Política de Privacidad de Google</a> para más información sobre el
+    tratamiento de datos de compra.
+  </p>
+
+  <!-- 4 -->
+  <h2>4. Permisos del dispositivo</h2>
+  <p>La aplicación puede solicitar los siguientes permisos del sistema:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Permiso</th>
+        <th>Para qué se usa</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Notificaciones</td>
+        <td>Enviarte recordatorios opcionales que tú configuras. No se envían notificaciones de marketing ni sin tu consentimiento previo.</td>
+      </tr>
+      <tr>
+        <td>Alarma exacta (Android ≤ 12)</td>
+        <td>Programar los recordatorios a la hora exacta que hayas indicado.</td>
+      </tr>
+      <tr>
+        <td>Arranque del sistema</td>
+        <td>Reprogramar los recordatorios si el dispositivo se reinicia, para que no se pierdan.</td>
+      </tr>
+      <tr>
+        <td>Bloqueo de activación</td>
+        <td>Garantizar la entrega puntual del recordatorio sin que el dispositivo entre en suspensión profunda en ese instante concreto.</td>
+      </tr>
+      <tr>
+        <td>Internet</td>
+        <td>Verificar el estado de la compra in-app con los servidores de Google Play. No se transmite ningún otro dato.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    Puedes revocar cualquier permiso en cualquier momento desde
+    <em>Ajustes → Aplicaciones → EscandalloPro → Permisos</em>.
+  </p>
+
+  <!-- 5 -->
+  <h2>5. Compartir archivos</h2>
+  <p>
+    La aplicación permite exportar escandallos en formato PDF o JSON y
+    compartirlos usando las aplicaciones instaladas en tu dispositivo (correo,
+    mensajería, almacenamiento en la nube, etc.). SerpaDev no interviene en
+    ese proceso ni recibe copias de los archivos compartidos.
+  </p>
+
+  <!-- 6 -->
+  <h2>6. Analítica y servicios de terceros</h2>
+  <p>
+    La aplicación <strong>no incluye ningún SDK de analítica</strong>
+    (Google Analytics, Firebase Analytics, Mixpanel, etc.) ni herramientas de
+    seguimiento de comportamiento. No se registran sesiones, pantallas visitadas
+    ni acciones del usuario.
+  </p>
+
+  <!-- 7 -->
+  <h2>7. Eliminación de datos</h2>
+  <p>
+    Dado que todos los datos residen únicamente en tu dispositivo,
+    <strong>puedes eliminarlos en cualquier momento</strong> desinstalando la
+    aplicación. Esta acción borrará de forma permanente todas las recetas,
+    ingredientes y configuraciones almacenados.
+  </p>
+
+  <!-- 8 -->
+  <h2>8. Seguridad</h2>
+  <p>
+    La aplicación aplica las siguientes medidas de seguridad en el dispositivo:
+  </p>
+  <ul>
+    <li>Las copias de seguridad automáticas de Android están deshabilitadas (<code>allowBackup="false"</code>).</li>
+    <li>Todas las comunicaciones de red se realizan exclusivamente mediante HTTPS.</li>
+    <li>El código de la versión de publicación se optimiza y ofusca mediante R8/ProGuard.</li>
+  </ul>
+
+  <!-- 9 -->
+  <h2>9. Menores de edad</h2>
+  <p>
+    La aplicación está orientada a profesionales de hostelería. No está dirigida
+    a menores de 16 años ni recopila conscientemente información de menores.
+  </p>
+
+  <!-- 10 -->
+  <h2>10. Cambios en esta política</h2>
+  <p>
+    Si esta política de privacidad se modifica de forma significativa, se
+    actualizará la fecha de revisión que aparece a continuación y se comunicará
+    el cambio en la descripción de la aplicación en Google Play.
+    Te recomendamos revisar esta página periódicamente.
+  </p>
+
+  <!-- 11 -->
+  <h2>11. Contacto</h2>
+  <p>
+    Si tienes alguna pregunta sobre esta política de privacidad, puedes
+    escribirnos a:
+    <a href="mailto:privacidad@serpadev.com">privacidad@serpadev.com</a>
+  </p>
+
+</main>
+
+<footer>
+  <p>Última actualización: 16 de marzo de 2026</p>
+  <p style="margin-top:0.3rem;">EscandalloPro &copy; 2026 SerpaDev</p>
+</footer>
+
+</body>
+</html>
