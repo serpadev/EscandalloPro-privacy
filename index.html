@@ -20,7 +20,7 @@
 <body>
 
 <h1>Política de privacidad de EscandalloPro</h1>
-<p class="fecha">Última actualización: 20 de septiembre de 2026</p>
+<p class="fecha">Última actualización: 15 de octubre de 2026</p>
 
 <p>Esta política explica qué datos trata la aplicación <strong>EscandalloPro</strong>
 (<code>com.serpadev.escandallopro</code>), para qué, y qué puedes hacer con ellos.</p>
@@ -28,7 +28,7 @@
 <h2>Quién es el responsable</h2>
 <p>
   Sergio Pérez Alonso, que opera bajo el nombre comercial Serpadev.<br>
-  Correo de contacto: <a href="mailto:soporte.serpadev@gmail.com">soporte.serpadev@gmail.com</a>
+  Correo de contacto: <a href="mailto:serpadvlp@gmail.com">serpadvlp@gmail.com</a>
 </p>
 
 <h2>Qué datos se tratan</h2>
@@ -53,6 +53,9 @@
   <li>Si accedes con Google, el correo y el nombre asociados a esa cuenta de Google.</li>
   <li>Una <strong>copia de tus recetas e ingredientes</strong> en la nube, para poder
       sincronizarlos entre tus dispositivos y recuperarlos si cambias de móvil.</li>
+  <li>Un <strong>identificador aleatorio de dispositivo</strong>, creado por la aplicación,
+      para saber desde qué dispositivo se hizo cada cambio. No identifica tu móvil fuera
+      de la aplicación.</li>
 </ul>
 <p>
   La contraseña la gestiona Firebase Authentication (Google) y el desarrollador no tiene
@@ -87,15 +90,21 @@
 <h3>Compras</h3>
 <p>
   La versión Premium se paga a través de Google Play. <strong>El pago lo procesa Google</strong>:
-  el desarrollador no recibe ni almacena datos de tu tarjeta. La aplicación solo guarda en tu
-  dispositivo si la compra está activa.
+  el desarrollador no recibe ni almacena datos de tu tarjeta.
+</p>
+<p>
+  Si no tienes cuenta, la aplicación solo guarda en tu dispositivo si la compra está activa.
+  Si inicias sesión, la compra se comprueba con Google Play y se asocia a tu cuenta para que
+  Premium funcione en todos tus dispositivos. Para ello se guardan en nuestros servidores el
+  identificador del pedido, el producto, la fecha de compra y el código de compra que entrega
+  Google Play. También se usan para evitar que una misma compra active varias cuentas y para
+  retirar Premium si la compra se reembolsa o se anula.
 </p>
 
 <h3>Permisos que pide la aplicación</h3>
 <ul>
-  <li><strong>Internet</strong>: para comprobar las compras, descargar las tipografías de
-      los PDF, enviar los datos de diagnóstico y, si creas una cuenta, sincronizar tus
-      datos.</li>
+  <li><strong>Internet</strong>: para comprobar las compras, enviar los datos de diagnóstico
+      y, si creas una cuenta, guardar y recuperar tus datos en la nube.</li>
   <li><strong>Notificaciones</strong>: para avisos de la propia aplicación. Puedes
       desactivarlas desde los ajustes del móvil.</li>
   <li><strong>Facturación de Google Play</strong>: para la compra de la versión Premium.</li>
@@ -114,8 +123,8 @@
       para prestarte esa función cuando la pides.</li>
   <li><strong>Interés legítimo</strong>: los datos de uso y los informes de fallo, en forma
       agregada, para mantener y mejorar la aplicación.</li>
-  <li><strong>Obligación legal</strong>: conservar los justificantes de compra el tiempo que
-      exija la normativa fiscal.</li>
+  <li><strong>Obligación legal e interés legítimo</strong>: conservar los justificantes de
+      compra durante 6 años y prevenir el uso fraudulento de una misma compra.</li>
 </ul>
 
 <h2>Quién más interviene</h2>
@@ -124,7 +133,8 @@
   Firestore, Analytics, Crashlytics y Google Play) como proveedores. Google puede tratar
   datos fuera del Espacio Económico Europeo amparándose en las cláusulas contractuales tipo
   aprobadas por la Comisión Europea. La copia de tus datos en la nube se almacena en la
-  región de Madrid.
+  región de Madrid. Algunas tareas automáticas del servidor (comprobar reembolsos y limpiar
+  los datos de una cuenta borrada) se ejecutan en la región de Bélgica (Unión Europea).
 </p>
 
 <h2>Cuánto tiempo se conservan</h2>
@@ -133,6 +143,10 @@
       aplicación.</li>
   <li><strong>Cuenta y copia en la nube</strong>: mientras la cuenta exista. Si la borras, se
       eliminan (ver el apartado siguiente).</li>
+  <li><strong>Datos de la compra Premium</strong>: mientras la cuenta exista. Si la borras,
+      la compra deja de estar asociada a ti y se elimina el código de compra. El
+      identificador del pedido y sus fechas se conservan <strong>6 años desde la compra</strong>
+      como justificante y para prevenir el fraude. Después se borran automáticamente.</li>
   <li><strong>Datos de uso y fallos</strong>: los plazos de retención de Firebase, hasta 14
       meses para la analítica y 90 días para los informes de fallo.</li>
 </ul>
@@ -152,7 +166,7 @@
 <p>
   Puedes pedir acceso a tus datos, su rectificación o supresión, la limitación u oposición al
   tratamiento, y la portabilidad, escribiendo a
-  <a href="mailto:soporte.serpadev@gmail.com">soporte.serpadev@gmail.com</a>. Se responde en
+  <a href="mailto:serpadvlp@gmail.com">serpadvlp@gmail.com</a>. Se responde en
   el plazo máximo de un mes.
 </p>
 <p>
